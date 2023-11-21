@@ -1,0 +1,173 @@
+table.exercise1{
+    border-top:2px solid #F0F0F0;
+    border-left:2px solid #F0F0F0;
+    border-right:2px solid #A0A0A0;
+    border-bottom:2px solid #A0A0A0;
+}
+table.exercise1 td{
+    width:150px;
+    background-color:#00FF00;
+    border-style:inset;
+}
+
+.exercise2{
+    border-top:7px solid #F0F0F0;
+    border-left:7px solid #F0F0F0;
+    border-right:7px solid #A0A0A0;
+    border-bottom:7px solid #A0A0A0;
+}
+table.exercise2 td{
+    width:150px;
+    background-color:#00FF00;
+}
+
+.exercise3{
+    border-top:2px solid #F0F0F0;
+    border-left:2px solid #F0F0F0;
+    border-right:2px solid #A0A0A0;
+    border-bottom:2px solid #A0A0A0;
+}
+table.exercise3 td{
+    background-color:#00FF00;
+    border-style:inset;
+}
+
+table.exercise4{
+    border-top:2px solid #F0F0F0;
+    border-left:2px solid #F0F0F0;
+    border-right:2px solid #A0A0A0;
+    border-bottom:2px solid #A0A0A0;
+}
+table.exercise4 td{
+    width:150px;
+    background-color:#00FF00 ;
+}
+
+table.exercise5 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+table.exercise5 td {
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #00FF00;
+}
+
+table.exercise6 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+
+table.exercise6 td {
+    width: 150px;
+    background-color: #00FF00;
+}
+
+table.exercise7 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+table.exercise7 td {
+    width: 150px;
+    background-color: #00FF00;
+}
+
+table.exercise8 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+table.exercise8 td {
+    width: 150px;
+    background-color: #00FF00;
+}
+
+table.exercise9 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+table.exercise9 td {
+    /* width: 150px; */
+    background-color: #00FF00;
+}
+
+table.exercise10 {
+    border-top: 2px solid #F0F0F0;
+    15:36
+
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+
+table.exercise10 td {
+    padding-right: 15px;
+    background-color: #00FF00;
+}
+
+table.exercise11 {
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #A0A0A0;
+    border-bottom: 2px solid #A0A0A0;
+}
+
+table.exercise11 td {
+    padding-right: 15px;
+    background-color: #00FF00;
+}
+
+grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dot li {
+    content: "•";
+    color: black;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.text1{
+    margin:5px 20%;
+}
+.img1{
+    margin:8px 5px;
+}
+
+.center{
+    align:bottom;
+    width:150px;
+    height:150px;
+}
+
+.wiki-table{
+    background-color: white;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-spacing: 1px;
+}

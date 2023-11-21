@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <h3>Лабораторная №4 Ким Реачна</h3>
+    <h4>Группа: НПИбд-02-20</h4>
+    <h3>Переменные</h3>
+    <h4>Упражнения 8:</h4>
+    <h6> Задать некоторое число, например, 12345. Проверить, что первой цифрой в этом числе являются 1, 2 или 3.
+    Если это так вывести 'да', в противном случае вывести 'нет'.</h6>
+    <div id="ans8"></div>
+    <button type="button" class="btn btn-secondary" onclick="ex8()">Click</button>
+    <br>
+    <h4>Упражнения 21:</h4>
+    <h6>Дан прямоугольник, длины сторон которого выражаются целыми числами.
+        Найти количество квадратов (длины сторон каждого квадрата целые),
+        на которые можно разрезать данный прямоугольник при условии,
+        что при разрезании каждый раз отрезается квадрат наибольшей площади со стороной,
+        общей стороне текущего прямоугольника.</h6>
+    <pre><label for="ans21_length">Введите length:</label>        <label for="ans21_width">Введите width:</label></pre>
+    <input type="number" id="ans21_length">
+    <input type="number" id="ans21_width">
+    <button onclick="alert(ex21(+document.getElementById('ans21_length').value, +document.getElementById('ans21_width').value))">Check!</button>
+    <br>
+    <h3>Массивы</h3>
+    <h4>Упражнения 9</h4>
+    <h6>Дан двумерный массив символов. Выписать предложение, записанное в этом массиве,
+        если каждая его строка это есть отдельное слово предложения.</h6>
+    <div id="ans9"></div>
+    <button type="button" class="btn btn-secondary" onclick="ex9()">Start</button>
+    <br>
+    <h4>Упражнения 16</h4>
+    <h6>Написать скрипт, который вставляет после i-го числа в массиве, последовательность из j чисел.
+        Операцию оформить в виде функции, поместив ее в js-файл. Cоздать объект типа Array и выполнить н
+        ад ним соответствующие действия, используя функцию этого класса.</h6>
+    <button type="button" class="btn btn-secondary" onclick="ex16()">Please test in console</button>
+    <br>
+    <h3>Функция</h3>
+    <h4>Упражнения 1</h4>
+    <h6>Дано простое число. Составить функцию, которая будет находить следующее за ним простое число
+        (то есть ближайшее простое число, большее данного, параметр функции). Например, если дано
+        число 11, то значение функции должно быть 13, если дано 23, то значение 29. Если входное данное
+        не является простым числом, то есть не выполняется условие, то значение функции считать равным нулю.</h6>
+    <label for="ans1">Введите номер:</label><br>
+    <input type="number" id="ans1">
+    <button onclick="alert(ex1(+document.getElementById('ans1').value))">Check!</button>
+    <br>
+    <h4>Упражнения 11</h4>
+    <h6>Составить функцию, которая проверяет, можно ли заданное натуральное число представить
+        в виде квадрата (куба) какого либо простого числа.</h6>
+    <label for="inp">Введите номер и нажмите "Проверить!":</label><br>
+    <input type="number" id="inp">
+    <button onclick="alert(ex11(+document.getElementById('inp').value) ? 'Prime' : 'Not prime')" type="button">Check!</button>
+</div>
+<script src="4.js"></script>
+</body>
+</html>

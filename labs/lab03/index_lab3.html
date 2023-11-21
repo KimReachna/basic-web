@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаборатория 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Лаборатория работа №3 Ким Реачна</h1>
+<h3>Группа: НПИбд-02-20</h3>
+
+<b>Задание 2:</b>
+
+<frameset rows="20%,80%">
+    <frame src="title.html">
+    <frameset cols="50%,50%">
+        <frame src="link.html">
+        <frame name="fr" src="home.html">
+    </frameset>
+</frameset>
+
+<b>Задание: Создать форму</b>
+
+<div class="container">
+<form id="signup">
+    <div class="header">
+        <h3>Форма регистрации</h3>
+        <p>Пожалуйста, заполните эту форму.</p>
+    </div>
+    <div class="sep"></div>
+    <div class="inputs">
+        <label for="name"><b>Ф.И.О</b></label>
+        <input type="text" placeholder="Введите Ф.И.О" name="name" id="name" required>
+        <label for="email"><b>Электронная почта</b></label>
+        <input type="text" placeholder="Введите электронной почты" name="email" id="email" required>
+    </div><br>
+    <div>
+        <input type="radio" name="gender" id="male" value="Мужчина">
+        <label for="male">Мужчина</label><br>
+        <input type="radio" name="gender" id="female" value="Женский">
+        <label for="female">Женский</label><br>
+    </div><br>
+    <div>
+        <label for="country"><b>Страна</b></label><br>
+        <select id="country">
+            <option value="country"> Выберите страну</option>
+            <option value="Россия"> Россия</option>
+            <option value="США"> США</option>
+            <option value="Камбоджа"> Камбоджа</option>
+        </select>
+    </div><br>
+    <div class="checkboxy">
+        <input type="checkbox" name="checkbox" value="check" id="agree"/>Я согласен с условиями и положениями
+    </div><br>
+    <div>
+        <input type="submit" value="Отправить">
+    </div>
+</div>
+</form><br>
+
+<b>Задание 6:</b>
+<div>
+    <button onclick="IDInput()">Try it</button>
+    <p id="ID"></p>
+    <script>
+        function IDInput(){
+            var id = prompt("Введите ID1");
+            var id = prompt("Введите ID2");
+            var id = prompt("Введите ID3");
+            var id = prompt("Введите ID4");
+            if(id != null){
+                document.getElementById("ID").innerHTML="ID is"+ id;
+            }
+        }
+    </script>
+</div>
+
+</body>
+</html>
